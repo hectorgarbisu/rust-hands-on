@@ -1,4 +1,8 @@
 [package]
-name = "hello_world"
-version = "0.0.1"
+name = "guessing_game"
+description = "Exercises from [The Rust Programming Language - The Rust Team 2016-10-01]"
+version = "0.0.3"
 authors = [ "Héctor Garbisu github.com/hectorgarbisu" ] 
+
+[dependencies]
+rand="0.3.0"
